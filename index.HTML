@@ -38,56 +38,69 @@
             <a class="boton" href="#">Contactar</a>
         </div>
     </section>
-<main>
+
+<main class="contenedor sombra">
     <h2>Mis Servicios</h2>
 
-<section>
+<div class="servicios">
+<section class="servicio">
     <h3>Diseño Web</h3>
+    <div class="iconos">
     <img src="https://img.icons8.com/nolan/64/paint-palette.png"/>
+    </div>  
     <p>Lmet minus li eveniet aliquam sint, dicta quasi sapiente!</p>
 </section>
 
-<section>
+<section class="servicio">
     <h3>Aplicaciones Web</h3>
+    <div class="iconos">
     <img src="https://img.icons8.com/nolan/64/android-os.png"/>
     <img src="https://img.icons8.com/nolan/64/apple.png"/>
+    </div>
     <p>Lmet minus li eveniet aliquam sint, dicta quasi sapiente!</p>
 </section>
 
-<section>
+<section class="servicio">
     <h3>E-Commerce</h3>
+    <div class="iconos">
     <img src="https://img.icons8.com/nolan/64/insert-card.png"/>
+    </div>
     <p>Lmet minus li eveniet aliquam sint, dicta quasi sapiente!</p>
 </section>
+</div> <!-- .servicios-->
+
 
 <section>
     <h2>Contacto</h2>
-    <form action="">
+    <form class="formulario">
         <fieldset>
             <legend>Contactanos llenando todos los campos</legend>
 
-            <div>
+            <div class="contenedor-campos">
+            <div class="campo">
             <label for="">Nombre</label>
-            <input type="text" placeholder="Nombre">
+            <input class="input-text" type="text" placeholder="Nombre">
             </div>
 
-            <div>
+            <div class="campo">
             <label for="">Telefono</label>
-            <input type="tel" placeholder="tu telefono">
+            <input class="input-text" type="tel" placeholder="tu telefono">
             </div>
 
-            <div>
+            <div class="campo">
             <label for="">Email</label>
-            <input type="email" placeholder="tu email">
+            <input class="input-text" type="email" placeholder="tu email">
             </div>
 
-            <div>
+            <div class="campo">
             <label for="">Mensaje</label>
-            <textarea name="" id="" cols="30" rows="2"></textarea>
+            <textarea class="input-text" name="" id="" cols="30" rows="2"></textarea>
             </div>
+            </div> <!-- contenedor-campos-->
+            
 
-            <div>
-                <input type="submit" value="Enviar">
+            <div class="alinear-derecha flex">
+                <input class="boton w-sm-100" type="submit" value="Enviar">
             </div>
 
         </fieldset>
@@ -95,11 +108,13 @@
     </form>
 </section>
 
+</main>
+
+
 <footer>
     <h2>Todos los derechos reservados. Gabriel Bogado Frelancer</h2>
 </footer>
 
-</main>
     
 
 </body>
